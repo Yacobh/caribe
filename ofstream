@@ -1,0 +1,16 @@
+int reset ()
+{
+//reset the file "output.txt"
+	ofstream myOutput;
+  	myOutput.open ("output.txt");
+  	myOutput << "";
+  	myOutput.close();
+ }
+ 
+ int appendInFile (string a) 
+{
+	ofstream myfile;
+	myfile.open ( "output.txt", ios::app );
+	myfile << a <<endl;
+	myfile.close();
+}
