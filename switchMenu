@@ -1,0 +1,37 @@
+int menu()
+{
+	int option=0;
+	while (option!=5)
+  {
+		cout << "\n\n\tPlease insert an option";
+		cout << "\n\t1. option 1";
+		cout << "\n\t2. option 2";
+    cout << "\n\t2. option 3";
+    cout << "\n\t2. option 4";
+		cout << "\n\t5. Exit \n\n";
+		cin >> option;
+		switch (option)
+    {
+			case 1:
+				//cout << "option 1";
+				break;
+			case 2:
+        //cout << "option 2";
+				break;
+			case 3:
+        //cout << "option 3";
+				break;
+      case 4:
+        //cout << "option 4";
+				break
+      case 5:
+        //cout << "option 5 EXIT";
+				break;
+			default:
+				cout << "\nplease insert a valid option";
+				break;
+		}
+		
+	}
+	
+}
