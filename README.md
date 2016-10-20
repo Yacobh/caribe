@@ -1,5 +1,5 @@
-caribe
+Caribe
 ======
-Este es el primer archivo de mi primer repositorio en github
-por ahora no se exactamente que voy a colocar en este repositorio
-pero supongo que ha de ser archivos javascript
+En este repositorio estan funciones de c++ que pueden ser utilizadas en algunos proyectos
+las coloco aquí para tener orden sobre ellas y para retroalimentación
+Epero que sea agradable.
